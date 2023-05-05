@@ -1,0 +1,47 @@
+2023-03-02 17:06:03 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "DSDSGD" not found; SQL statement:
+INSERT INTO CUSTOMER(NAME) VALUES(dsdsgd); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:163)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:145)
+	at org.h2.command.dml.Insert.prepare(Insert.java:327)
+	at org.h2.command.Parser.prepareCommand(Parser.java:744)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.CompanyDao.createCustomer(CompanyDao.java:128)
+	at carsharing.Main.main(Main.java:96)
+2023-03-02 17:13:20 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR NOT NULL UNIQUE,RENTED_CAR_ID INTEGER,CONSTRAINT FK_CAR FOREIGN KEY (RENTED_CAR_ID)REFERENCES CAR(ID)SET[*] DEFAULT SET NULL);"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR NOT NULL UNIQUE,RENTED_CAR_ID INTEGER,CONSTRAINT fk_CAR FOREIGN KEY (RENTED_CAR_ID)REFERENCES CAR(ID)SET DEFAULT SET NULL); [42001-200]
+2023-03-02 17:17:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR NOT NULL UNIQUE,RENTED_CAR_ID INTEGER,CONSTRAINT FK_CAR FOREIGN KEY (RENTED_CAR_ID)REFERENCES CAR(ID)SET[*] DEFAULT NULL);"; expected "INDEX, ON, NOT, DEFERRABLE, NOCHECK, CHECK, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS CUSTOMER (ID INTEGER PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR NOT NULL UNIQUE,RENTED_CAR_ID INTEGER,CONSTRAINT fk_CAR FOREIGN KEY (RENTED_CAR_ID)REFERENCES CAR(ID)SET DEFAULT NULL); [42001-200]
+2023-03-02 17:20:11 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ENTED_CAR_ID" not found; SQL statement:
+INSERT INTO CUSTOMER(NAME, ENTED_CAR_ID) VALUES('vsv',null); [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:164)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.CompanyDao.createCustomer(CompanyDao.java:129)
+	at carsharing.Main.main(Main.java:96)

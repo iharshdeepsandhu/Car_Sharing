@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Car_Sharing.Car_Sharing-task-build-classes-java.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task-build-generated-sources-annotationProcessor-java.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task-build-generated-sources-headers-java.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task-build-reports-tests.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task-build-test-results.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task-build-tmp.main" target="16" />
+      <module name="Car_Sharing.Car_Sharing-task.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Collectors_class.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Data_structures.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Existing_collectors.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Set_average.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Statements.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Collectors-Сollect_parameter.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Implement_Comparable.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Implement_comparing_by_additional_fields.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Ratings.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Rewrite_compareTo_method.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparable-Value_class.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Method_name.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Most_valuable_items.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Multiple_fields.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Non-abstract_methods.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Sort_users.main" target="16" />
+      <module name="Car_Sharing.Topics-Comparator-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_data_processing_with_streams-A_sorted_stream.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_data_processing_with_streams-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_interfaces-A_lambda_expression_with_seven_arguments.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_interfaces-Ternary_predicate.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_interfaces-The_requirement.main" target="16" />
+      <module name="Car_Sharing.Topics-Functional_interfaces-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-Count_how_many_times_a_number_occurs.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-Does_an_array_contain_N.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-Select_loops.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-Select_one_loop.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-The_minimum_value_of_an_array.main" target="16" />
+      <module name="Car_Sharing.Topics-Iterating_over_arrays-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Optional-Create_an_Optional_value.main" target="16" />
+      <module name="Car_Sharing.Topics-Optional-The_address_book.main" target="16" />
+      <module name="Car_Sharing.Topics-Optional-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Optional-What_is_Optional.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Calculating_factorials.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Range_quadratic_sum.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Reduce-like_operations.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Reduce_operations.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Statements.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Sum_of_divisors.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-The_count_operation.main" target="16" />
+      <module name="Car_Sharing.Topics-Reduction_methods-Theory.main" target="16" />
+      <module name="Car_Sharing.Topics-Standard_functional_interfaces-Accounts.main" target="16" />
+      <module name="Car_Sharing.Topics-Standard_functional_interfaces-Ternary_operator.main" target="16" />
+      <module name="Car_Sharing.Topics-Standard_functional_interfaces-Theory.main" target="16" />
+      <module name="Car_Sharing.util.main" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
